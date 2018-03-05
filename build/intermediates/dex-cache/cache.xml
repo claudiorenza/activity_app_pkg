@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_d4469b7ac3d9e83b98cdf890d39adc540b781fbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.codec/1.3.0/f8690570eb0913d750262bb4223eed30b0d619ed/com.springsource.org.apache.commons.codec-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8690570eb0913d750262bb4223eed30b0d619ed">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0_9773db324f72eb8e3d1cf892e7ced4faf1eab4d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e6fb74a0699abe108969b2ec1f269391169a0426">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/netty-3.5.2.Final_05b8726a3cb83a9576e9bb2867dc7a7519e530fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_5c4bb4c729f9b86fc702336169f824ea3f4ffef6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.0.4_5dc61d256fb3455d8ce5983a0cb661ec26a3e7de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.8.0_b1f6e2ba2d53e39881a92b091603449aab44c23a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88753e5bdc17638231791a091637b3cc0b1f0532">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/org.altbeacon-android-beacon-library-2.12.4_a1334b3cbbdd12929db59251a1fab895aba7d64f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/nav_msgs/1.10.6/5ff4a3dcc4552384e9967bcb9910cb18550f3f03/nav_msgs-1.10.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ff4a3dcc4552384e9967bcb9910cb18550f3f03">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/nav_msgs-1.10.6_09ea0fe92c4a06ad0c472f6e69a4d04b961b427d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/std_msgs/0.5.11/a0191f0506dfecfc471eb199a119691717801c0e/std_msgs-0.5.11.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a0191f0506dfecfc471eb199a119691717801c0e">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/std_msgs-0.5.11_1991fcba77a3130215a9f27cbe72de4bdfaff21e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.8.0_25ba87f5c5092cd853b2daaebade13c6e20c9518.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/sensor_msgs/1.12.5/cbf0470b3769130fbe997ca4cc479177d14ddbdb/sensor_msgs-1.12.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cbf0470b3769130fbe997ca4cc479177d14ddbdb">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/sensor_msgs-1.12.5_84377c20a4d1d7e2cabbd981f66e8647b2dde9cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/geometry_msgs/1.12.5/cced5d3f1b4f55a4248884befce7e898856705d/geometry_msgs-1.12.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0cced5d3f1b4f55a4248884befce7e898856705d">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/geometry_msgs-1.12.5_37e21a91ab0d4072bff7318167d531e2f9af04c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/7657caf2c78e1d79c74d36f2ae128a115f7cc180/com.springsource.org.apache.commons.logging-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7657caf2c78e1d79c74d36f2ae128a115f7cc180">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.logging-1.1.1_abba9d3dab6ba591fe9698b6d4947478db5e8d3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6aa915c08cfd82780c10d4b957018bf819a48e2">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-11.0.4_75a9f49c4e7a300cd2a069f63ed35b6f51979b22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/usr/local/android-studio/gradle/m2repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/jsr305-1.3.9_50fc2166f4c8b73721019f051e7e50075918b3aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_d049aa4197690abf2140bc1c2876e499d4c728df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/rosjava_geometry/0.1.6/9537507004086900e2c6a6eebbf971727dffccb2/rosjava_geometry-0.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9537507004086900e2c6a6eebbf971727dffccb2">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/rosjava_geometry-0.1.6_11b7672b327d31f531ee5bf121178d1f92df4739.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.8.0_407d78b77489cfa85e4c0e8aac692906fa160199.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/apache_xmlrpc_client/0.1.6/3732bfde1149cfd1a984576e58ad4f4caa9bc451/apache_xmlrpc_client-0.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3732bfde1149cfd1a984576e58ad4f4caa9bc451">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/apache_xmlrpc_client-0.1.6_fd25ddbec56d1dcf498d447da47d215cb42dffba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a00b0b5cda7456498ecd4a634da01553997f2a8">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/org.ros.android_core-android_gingerbread_mr1-0.1.2_d6e8e8acbf7f48d89adfdebd01f9f780c87cdbdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/rosjava_test_msgs/0.1.27/1d519dbebe0a1f9b9df0cb5b6325e8a3c82e4f52/rosjava_test_msgs-0.1.27.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d519dbebe0a1f9b9df0cb5b6325e8a3c82e4f52">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/rosjava_test_msgs-0.1.27_000ca18774437f626001bd543c473ab9da3a5f10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_2f170c0d2277e27660b44a052d41f14b97bf082e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0/5bc66dd95b79db1e437eb08adba124a3e4088dc0/guava-12.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/guava-12.0_35273ecaa78ca37872f1a603a45a784f2d3946cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/actionlib_msgs/1.10.6/8b308d1cd05e2823cb33e066c34033f52f718d7d/actionlib_msgs-1.10.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b308d1cd05e2823cb33e066c34033f52f718d7d">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/actionlib_msgs-1.10.6_a109bfb3f78af8439b97ff1ce6f6bda178a8589a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/gradle_plugins/0.3.0/9915d897f3b5049e99b268068978a1bca0ae7b5d/gradle_plugins-0.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9915d897f3b5049e99b268068978a1bca0ae7b5d">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/gradle_plugins-0.3.0_5bd7aab179d24e6f90c113dd7ebba0b74e95a572.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_a97b24ee62a438e1cc2b39b79bfafdbe542e0cb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88753e5bdc17638231791a091637b3cc0b1f0532">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/org.altbeacon-android-beacon-library-2.12.4_3574e1259eec9c9255a627abf090fdad9fb2a4f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c86b9ff3ff60aa61ee5a9116c3c06a533ff324c9">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-11.8.0_a1c24c195e894a787af51cc1fa919d31a3a8b69d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_6543c4a6d6726231fd7144a8ecbd912b275256a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_117b1f99688b3d752a1273d5ea96723c1d343ac5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/usr/local/android-sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_08ae4d3bc2c6ca9d38157b46a623c31f30c17ab5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/wear/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f664ca5d1cb7382e8a2732ef6394eb0c35c7996">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-wear-26.1.0_3a820e79baef2ed87eefe2e1ded6443589e47227.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.0.4_7bb3f2a781cbfbb22e5afe5de7b55da69b330c9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/common-1.0.0_4ebf991edd7a293e1d57ac837271dce39dbf430d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-26.1.0_d0a16eb63a83ec916a795cf766fb78b4a5dea90f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04a4fcc2dff2bff3058dfa8af86a3dc7d51d7f9e">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/org.ros.android_core-android_honeycomb_mr2-0.1.2_ac1159946d559149a15e7b54f6d3033b60514b1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/rosjava/0.1.6/6be35df9adf081d5c20ffcb9e07653edbebcc969/rosjava-0.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6be35df9adf081d5c20ffcb9e07653edbebcc969">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/rosjava-0.1.6_3c2b22e0a4cdde9ac9f9167723f92b12d6105f15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.httpclient/3.1.0/c493a925a091ac3d8f449d9265fe12482dabb2a7/com.springsource.org.apache.commons.httpclient-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c493a925a091ac3d8f449d9265fe12482dabb2a7">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0_41c91b192e94ffce5e11e59c9482287819e2da56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_32ef45dd13bd5b388c319b0d23d5e522a87181ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/message_generation/0.3.0/5141e448f0ea6a2d6f539219d4fc9b296ff07ca4/message_generation-0.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5141e448f0ea6a2d6f539219d4fc9b296ff07ca4">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/message_generation-0.3.0_957f3496341ac6f805f969e9e5e40420fcdf658a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4572d589699f09d866a226a14b7f4323c6d8f040">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/commons-pool-1.6_92f8490e2a1a1c3c6b8f8c66932e61fcd6e7574d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/apache_xmlrpc_server/0.1.6/46fe3d04e7cd2c1d0b7a749df36b8a08e0e38f84/apache_xmlrpc_server-0.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="46fe3d04e7cd2c1d0b7a749df36b8a08e0e38f84">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/apache_xmlrpc_server-0.1.6_d339217948e679ad501b594a6a95f9d06a500831.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_089fa2b703542e3b6acd18b1c4ec0e2640220e77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="180d2b0f1c41001724fe3bbdcbbcda42632a3bef">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.google.android.support-wearable-2.2.0_88b74079cd19c6a6fac69051a4e3582d54f23a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.0.4_4e6e4d1c74a5ed8eb6b1ceb004a2b201a53c2e55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/common-1.0.0_c034e89308c8fda0289426dc90bf8cc1cab78116.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.1/5708df81cf6dbff545695f0be6380b7bbc85accc/dnsjava-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/dnsjava-2.1.1_54f8b13cd481aab31bd1a6ed13ef2423c1900d37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_fc22b97e2c00612359859bbfb41a66dd6d322845.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/percent/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6f28bfbd0f56ac2ab6e8c57503b610b35d116c9">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-percent-26.1.0_21ee04cd77441a7931359a8d21841e7d85b86b20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_619e6fef1acac7a8110998129843ee5e40bb23d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_7c7e92802851a237ad4c398d73d45f921e13e4a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/51097cd000ec88214ff181c9f059947de1cf4a35/com.springsource.org.apache.commons.io-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0_5513352843f62add7d9b2cd6357d8ea0a9304820.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.net/2.0.0/3e78766072ff5a5cf3f5431d973c430c94ec612/com.springsource.org.apache.commons.net-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03e78766072ff5a5cf3f5431d973c430c94ec612">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.net-2.0.0_932b4c8187fabd1130e4c3bb048b4a5b13e82964.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/apache_xmlrpc_common/0.1.6/5844c027dd3e8b61aa5885a5748f6560a8fe10e/apache_xmlrpc_common-0.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05844c027dd3e8b61aa5885a5748f6560a8fe10e">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/apache_xmlrpc_common-0.1.6_dc7cd115b0bd689b55133bb5160586ae92bb6253.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons/ws-commons-util/1.0.1/126e80ff798fece634bc94e61f8be8a8da00be60/ws-commons-util-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="126e80ff798fece634bc94e61f8be8a8da00be60">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/ws-commons-util-1.0.1_338540f1333783543fe4a7d84b935c3ca0e92a58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.lang/2.4.0/686e3713650c8e3a5d98723b4d3e239586bf9822/com.springsource.org.apache.commons.lang-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0_84466fe0fe68f8b898b821394b5b95dc580a16f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app_wear/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_93994b13e6fb27c634f08152ba1d558dfc3fae9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_f6ca606f3365def7527e8260f711c4d179a0822e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/rosgraph_msgs/1.9.50/5bda692b5f32449d109eb8ac74cc77a23ff78dc7/rosgraph_msgs-1.9.50.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5bda692b5f32449d109eb8ac74cc77a23ff78dc7">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.9.50_5f7821d9a3e449c8f9a07e16002930853022b565.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/tf2_msgs/0.4.12/ba0d30709083c01736b9b3ceb24b628149d77baa/tf2_msgs-0.4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba0d30709083c01736b9b3ceb24b628149d77baa">
+        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/tf2_msgs-0.4.12_0edd6d6345caab0066e65e6a0df2628fddd07500.jar" />
+    </item>
+
+</items>
