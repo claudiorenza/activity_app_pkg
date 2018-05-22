@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.altbeacon:android-beacon-library-2.13.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/activity_app_wear/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.13.1/res" />
+      <root url="jar://$PROJECT_DIR$/activity_app_wear/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.13.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

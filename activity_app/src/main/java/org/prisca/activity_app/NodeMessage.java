@@ -51,15 +51,10 @@ public class NodeMessage extends AbstractNodeMain {
         //
     }
 
-    public void msgEntryArea()  {
-        std_msgs.String str = (std_msgs.String)publisher.newMessage();
-        str.setData("1");
-        publisher.publish(str);
-    }
+    public void msgArea(java.lang.String command)  {
 
-    public void msgExitArea()  {
         std_msgs.String str = (std_msgs.String)publisher.newMessage();
-        str.setData("0");
+        str.setData(command);
         publisher.publish(str);
     }
 }

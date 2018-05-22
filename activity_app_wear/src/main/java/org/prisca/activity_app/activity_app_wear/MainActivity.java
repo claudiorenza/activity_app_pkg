@@ -2,6 +2,7 @@ package org.prisca.activity_app.activity_app_wear;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.support.v4.app.ActivityCompat;
@@ -15,11 +16,22 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.wearable.Wearable;
 
+import org.altbeacon.beacon.Beacon;
 import org.altbeacon.beacon.BeaconConsumer;
 import org.altbeacon.beacon.BeaconManager;
 import org.altbeacon.beacon.BeaconParser;
+import org.altbeacon.beacon.Identifier;
 import org.altbeacon.beacon.MonitorNotifier;
+import org.altbeacon.beacon.RangeNotifier;
 import org.altbeacon.beacon.Region;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends WearableActivity implements BeaconConsumer, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
@@ -29,7 +41,10 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
 
     protected static final String TAG = "MonitoringActivity_wear";
     private BeaconManager beaconManager;
+    private Button buttonEntry;
+    private Button buttonApproach;
 
+    private Map<String, Double> beaconsCompare = new HashMap<String, Double>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,17 +56,25 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
                 .build();
-
-        final Button button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        buttonEntry = findViewById(R.id.buttonEntry);
+        buttonEntry.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Log.d("BUTTON", "Send to...");
-                String message = "Hello wearable\n Via the data layer";
+                Log.d("BUTTON", "Entry");
+                String message = "1";
                 //Requires a new thread to avoid blocking the UI
                 new SendToDataLayerThread("/message_path", message, googleClient).start();
             }
         });
 
+        buttonApproach = findViewById(R.id.buttonApproach);
+        buttonApproach.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Log.d("BUTTON", "Approach");
+                String message = "2";
+                //Requires a new thread to avoid blocking the UI
+                new SendToDataLayerThread("/message_path", message, googleClient).start();
+            }
+        });
 
         // Here, thisActivity is the current activity
         if (ContextCompat.checkSelfPermission(this,
@@ -83,13 +106,24 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
         // Enables Always-on
         setAmbientEnabled();
 
+        //Region region1 = new Region("myIdentifier1", "B4:99:4C:70:C3:C2");
+        //Region region2 = new Region("myIdentifier2", "B4:99:4C:70:C3:D1");
+
         beaconManager = BeaconManager.getInstanceForApplication(this);
         // To detect proprietary beacons, you must add a line like below corresponding to your beacon
         // type.  Do a web search for "setBeaconLayout" to get the proper expression.
-        beaconManager.getBeaconParsers().add(new BeaconParser().
-                setBeaconLayout("m:0-3=4c000215,i:4-19,i:20-21,i:22-23,p:24-24"));
+        beaconManager.getBeaconParsers()
+                .add(new BeaconParser()
+                        .setBeaconLayout("m:0-3=4c000215,i:4-19,i:20-21,i:22-23,p:24-24"));
+/*
+        try {
+            beaconManager.startMonitoringBeaconsInRegion(region1);
+            beaconManager.startMonitoringBeaconsInRegion(region2);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+*/
         beaconManager.bind(this);
-
     }
 
     // Connect to the data layer when the Activity starts
@@ -105,11 +139,33 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
         super.onDestroy();
         beaconManager.unbind(this);
     }
+
+
     @Override
     public void onBeaconServiceConnect() {
+        beaconManager.addRangeNotifier(new RangeNotifier() {
+            @Override
+            public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
+                if (beacons.size() > 0) {
+                    Log.i(TAG, "The first beacon I see is about " + beacons.iterator().next().getDistance() + " meters away.");
+                    recognitionArea(beacons.iterator().next());
+                }
+            }
+        });
+
+        try {
+            beaconManager.startRangingBeaconsInRegion(new Region("com.beacon.lampOne", "B4:99:4C:70:C3:C2"));
+            beaconManager.startRangingBeaconsInRegion(new Region("com.beacon.lampTwo", "B4:99:4C:70:C3:D1"));
+
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+
+/*
         beaconManager.addMonitorNotifier(new MonitorNotifier() {
             @Override
             public void didEnterRegion(Region region) {
+                //buttonEntry.setText("Beacon Area");
                 Log.i(TAG, "I just saw an beacon for the first time!");
                 String message = "Hello wearable\n Via the data layer";
                 //Requires a new thread to avoid blocking the UI
@@ -118,6 +174,7 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
 
             @Override
             public void didExitRegion(Region region) {
+                //buttonEntry.setText("SEND");
                 Log.i(TAG, "I no longer see an beacon");
                 String message = "Hello wearable\n Via the data layer";
                 //Requires a new thread to avoid blocking the UI
@@ -133,6 +190,34 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
         try {
             beaconManager.startMonitoringBeaconsInRegion(new Region("myMonitoringUniqueId", null, null, null));
         } catch (RemoteException e) {    }
+        */
+    }
+
+    public void recognitionArea(Beacon beacon) {
+        Log.i(TAG,  "ADDRESS: " + beacon.getBluetoothAddress() + " - Distance: " + beacon.getDistance());
+
+        beaconsCompare.put(beacon.getBluetoothAddress() , beacon.getDistance());
+        Log.i("SIZE", String.valueOf(beaconsCompare.size()));
+
+        if (beaconsCompare.size() > 1) {
+            if(beaconsCompare.get("B4:99:4C:70:C3:D1") < 3.0) {
+                if (beaconsCompare.get("B4:99:4C:70:C3:D1") < beaconsCompare.get("B4:99:4C:70:C3:C2")) {
+                    Log.i("MESSAGE", "1");
+                    String message = "1";
+                    new SendToDataLayerThread("/message_path", message, googleClient).start();
+                } else {
+                    Log.i("MESSAGE", "2");
+                    String message = "2";
+                    new SendToDataLayerThread("/message_path", message, googleClient).start();
+                }
+            } else {
+                Log.i("MESSAGE", "0");
+                String message = "0";
+                new SendToDataLayerThread("/message_path", message, googleClient).start();
+            }
+            beaconsCompare.clear();
+        }
+
     }
 
     @Override

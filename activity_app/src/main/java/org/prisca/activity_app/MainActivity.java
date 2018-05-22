@@ -26,6 +26,7 @@ public class MainActivity extends RosActivity /*implements BeaconConsumer */{
 
     private NodeMessage node;
     private boolean isEntered = false;
+    private boolean isApproached = false;
 
     protected static final String TAG = "MonitoringActivity";
     //private BeaconManager beaconManager;
@@ -51,16 +52,30 @@ public class MainActivity extends RosActivity /*implements BeaconConsumer */{
                 setBeaconLayout("m:0-3=4c000215,i:4-19,i:20-21,i:22-23,p:24-24"));
         beaconManager.bind(this);
 */
-        final Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        final Button buttonEntry = (Button) findViewById(R.id.buttonEntry);
+        buttonEntry.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if (!isEntered) {
-                    node.msgEntryArea();
-                    isEntered = true;
+            if (!isEntered) {
+                node.msgArea("1");
+                isEntered = true;
+            }
+            else {
+                node.msgArea("0");
+                isEntered = false;
+            }
+            }
+        });
+
+        final Button buttonApproach = (Button) findViewById(R.id.buttonApproach);
+        buttonApproach.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (!isApproached) {
+                    node.msgArea("2");
+                    isApproached = true;
                 }
                 else {
-                    node.msgExitArea();
-                    isEntered = false;
+                    node.msgArea("3");
+                    isApproached = false;
                 }
             }
         });
@@ -71,14 +86,23 @@ public class MainActivity extends RosActivity /*implements BeaconConsumer */{
         public void onReceive(Context context, Intent intent) {
             String message = intent.getStringExtra("message");
             // Display message in UI
-            Log.d("Text View", message);
+            Log.d("Recevied Command", message);
 
-            if (!isEntered) {
-                node.msgEntryArea();
+            if(message.equals("1") && !isEntered)   {
+                Log.d("SEND", "ON Main Light");
+                node.msgArea("1");
                 isEntered = true;
-            }
-            else {
-                node.msgExitArea();
+            } else if(message.equals("2") && isEntered && !isApproached) {
+                Log.d("SEND", "Approach Second Light");
+                node.msgArea("2");
+                isApproached = true;
+            } else if(message.equals("1") && isEntered && isApproached)  {
+                Log.d("SEND", "Retain Second Light");
+                node.msgArea("3");
+                isApproached = false;
+            } else if(message.equals("0") && isEntered) {
+                Log.d("SEND", "OFF Main Light");
+                node.msgArea("0");
                 isEntered = false;
             }
         }
@@ -108,14 +132,14 @@ public class MainActivity extends RosActivity /*implements BeaconConsumer */{
             @Override
             public void didEnterRegion(Region region) {
                 Log.i(TAG, "I just saw an beacon for the first time!");
-                node.msgEntryArea();
+                node.msgArea();
                 isEntered = true;
             }
 
             @Override
             public void didExitRegion(Region region) {
                 Log.i(TAG, "I no longer see an beacon");
-                node.msgExitArea();
+                node.msgArea("0");
                 isEntered = false;
             }
 

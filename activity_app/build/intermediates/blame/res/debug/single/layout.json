@@ -5,7 +5,7 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/master_chooser.xml",
-        "source": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/res/layout/master_chooser.xml"
+        "source": "/home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/res/layout/master_chooser.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/virtual_joystick.xml",
@@ -17,7 +17,7 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/virtual_joystick.xml",
-        "source": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/res/layout/virtual_joystick.xml"
+        "source": "/home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/res/layout/virtual_joystick.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/master_chooser.xml",
@@ -25,7 +25,7 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/pan_tilt.xml",
-        "source": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/res/layout/pan_tilt.xml"
+        "source": "/home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/res/layout/pan_tilt.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/main.xml",

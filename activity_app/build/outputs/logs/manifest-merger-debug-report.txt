@@ -17,16 +17,16 @@ ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main
 		ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH
 ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:7:5-68
-MERGED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:11:5-13:36
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:11:5-13:36
 	android:required
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:13:9-33
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:13:9-33
 	android:name
 		ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:7:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:8:5-74
-MERGED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:14:5-16:36
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:16:9-33
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:16:9-33
 	android:name
 		ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:8:22-71
 uses-permission#android.permission.INTERNET
@@ -35,23 +35,23 @@ ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main
 		ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:9:22-64
 application
 ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:10:5-32:19
-MERGED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:10:3-18:19
-MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:14:5-27:19
-MERGED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:20:5-42:19
-MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/11.0.4/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:10:3-18:19
+MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:14:5-27:19
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:20:5-56:19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /home/kloudpix/.android/build-cache/ea83fbdf5e73a042025e8ef3f76a5eb6db9733b3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/kloudpix/.android/build-cache/10efc0e644cbfd840568a0d7f5d44b07aecc854a/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/.android/build-cache/11b2e343527b023ca39afd25e65c533eca3c2dfc/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /home/kloudpix/.android/build-cache/aacb4824933403e2f0f9ed4e5b2275e943d0bb2c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/kloudpix/.android/build-cache/5c9d6a63dd07eeb51cafa65d59af9eccc0cf2d2e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kloudpix/.android/build-cache/4348027562bdd22dc936236a6816ac8aab189868/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/kloudpix/.android/build-cache/fa716b6934e139c4b501445e7d50a055662e2b9f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/kloudpix/.android/build-cache/2f1b54b8e5265f183af4273ae8d8a5fc0e42479d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/kloudpix/.android/build-cache/53132775f40c2869c03efd137e0fc46ef5f5d582/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:10:18-50
 	android:icon
-		ADDED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:15:9-38
+		ADDED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:15:9-38
 activity#org.prisca.activity_app.MainActivity
 ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:11:9-17:20
 	android:label
@@ -74,8 +74,8 @@ ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main
 		ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:19:19-63
 service#org.ros.android.NodeMainExecutorService
 ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:22:9-26:19
-MERGED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:13:9-17:19
-MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:22:9-26:19
+MERGED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:13:9-17:19
+MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:22:9-26:19
 	android:name
 		ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:22:18-72
 intent-filter#org.ros.android.NodeMainExecutorService
@@ -96,21 +96,21 @@ ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main
 		ADDED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:29:25-85
 uses-sdk
 INJECTED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:2:3-41
-MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:7:5-44
-MERGED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/11.0.4/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/AndroidManifest.xml:21:5-23:58
+MERGED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:2:3-41
+MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:7:5-44
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /home/kloudpix/.android/build-cache/ea83fbdf5e73a042025e8ef3f76a5eb6db9733b3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/kloudpix/.android/build-cache/10efc0e644cbfd840568a0d7f5d44b07aecc854a/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/.android/build-cache/11b2e343527b023ca39afd25e65c533eca3c2dfc/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /home/kloudpix/.android/build-cache/aacb4824933403e2f0f9ed4e5b2275e943d0bb2c/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/kloudpix/.android/build-cache/5c9d6a63dd07eeb51cafa65d59af9eccc0cf2d2e/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kloudpix/.android/build-cache/4348027562bdd22dc936236a6816ac8aab189868/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/kloudpix/.android/build-cache/fa716b6934e139c4b501445e7d50a055662e2b9f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/kloudpix/.android/build-cache/2f1b54b8e5265f183af4273ae8d8a5fc0e42479d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /home/kloudpix/.android/build-cache/53132775f40c2869c03efd137e0fc46ef5f5d582/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:25.2.0] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:25.2.0] /home/kloudpix/.android/build-cache/aacb4824933403e2f0f9ed4e5b2275e943d0bb2c/output/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml
 		INJECTED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml
@@ -118,99 +118,123 @@ MERGED from [com.android.support:support-compat:25.2.0] /home/kloudpix/activityA
 		INJECTED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml
 		INJECTED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml
 activity#org.ros.android.android_gingerbread_mr1.MasterChooser
-ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:11:9-154
-MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:17:9-20:47
+ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:11:9-154
+MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:17:9-20:47
 	android:label
-		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:11:19-51
+		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:11:19-51
 	android:launchMode
-		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:11:52-83
+		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:11:52-83
 	android:name
-		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:11:84-152
+		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:11:84-152
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:20:5-80
-MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:9:5-81
+ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:20:5-80
+MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:20:22-78
+		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:20:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:21:5-75
-MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:10:5-76
+ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:21:5-75
+MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:21:22-73
+		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:21:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:22:5-75
-MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:11:5-76
+ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:22:5-75
+MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:22:22-73
+		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:22:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:23:5-67
-MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/AndroidManifest.xml:12:5-68
+ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:23:5-67
+MERGED from [org.ros.android_core:android_gingerbread_mr1:0.1.2] /home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/AndroidManifest.xml:23:22-65
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+		ADDED from [org.ros.android_core:android_honeycomb_mr2:0.1.2] /home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/src/main/AndroidManifest.xml:2:1-33:12 reason: org.ros.android.android_honeycomb_mr2 requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:17:5-81
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:17:22-78
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:17:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:18:5-81
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:18:22-78
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:18:22-78
 receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:21:9-27:20
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:21:19-87
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:21:19-87
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:22:13-26:29
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:23:17-79
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:23:17-79
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:23:25-76
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:23:25-76
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:24:17-87
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:24:17-87
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:24:25-84
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:24:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:25:17-90
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:25:17-90
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:25:25-87
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:25:25-87
 service#org.altbeacon.beacon.service.BeaconService
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:29:9-34:38
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:29:9-34:38
 	android:enabled
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:31:13-35
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:31:13-35
 	android:label
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:34:13-35
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:34:13-35
 	android:exported
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:32:13-37
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:32:13-37
 	android:isolatedProcess
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:33:13-44
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:33:13-44
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:30:13-70
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:30:13-70
 service#org.altbeacon.beacon.BeaconIntentProcessor
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:35:9-38:40
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:35:9-38:40
 	android:enabled
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:37:13-35
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:38:13-37
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:36:13-70
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:36:13-70
 service#org.altbeacon.beacon.service.ScanJob
-ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:39:9-41:72
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:39:9-48:19
 	android:permission
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:41:13-69
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:41:13-69
 	android:name
-		ADDED from [org.altbeacon:android-beacon-library:2.12.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.4/AndroidManifest.xml:40:13-64
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:19:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:20:9-121
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:40:13-64
+meta-data#immediateScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:42:13-44:45
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:20:66-119
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:44:17-42
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:20:20-65
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:43:17-50
+meta-data#periodicScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:45:13-47:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:47:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:46:17-49
+service#org.altbeacon.bluetooth.BluetoothTestJob
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:49:9-55:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:50:13-68
+meta-data#jobId
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:52:13-54:46
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:54:17-43
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /home/kloudpix/.android/build-cache/29d1e7e6882d506ec4fa82fb8ec5f0808b1f50ab/output/AndroidManifest.xml:53:17-37
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/.android/build-cache/11b2e343527b023ca39afd25e65c533eca3c2dfc/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/.android/build-cache/11b2e343527b023ca39afd25e65c533eca3c2dfc/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kloudpix/.android/build-cache/11b2e343527b023ca39afd25e65c533eca3c2dfc/output/AndroidManifest.xml:20:20-65

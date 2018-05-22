@@ -10,17 +10,24 @@
     tools:context="org.prisca.activity_app.activity_app_wear.MainActivity"
     tools:deviceIds="wear">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:padding="@dimen/inner_frame_layout_padding"
         app:boxedEdges="all">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonEntry"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Send" />
-    </FrameLayout>
+            android:layout_height="wrap_content"
+            android:text="Entry" />
+
+        <Button
+            android:id="@+id/buttonApproach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Approach" />
+    </LinearLayout>
 </android.support.wear.widget.BoxInsetLayout>
 
