@@ -87,22 +87,19 @@ public class MainActivity extends RosActivity /*implements BeaconConsumer */{
             String message = intent.getStringExtra("message");
             // Display message in UI
             Log.d("Recevied Command", message);
+            node.msgArea(message);
 
             if(message.equals("1") && !isEntered)   {
                 Log.d("SEND", "ON Main Light");
-                node.msgArea("1");
                 isEntered = true;
             } else if(message.equals("2") && isEntered && !isApproached) {
                 Log.d("SEND", "Approach Second Light");
-                node.msgArea("2");
                 isApproached = true;
             } else if(message.equals("1") && isEntered && isApproached)  {
                 Log.d("SEND", "Retain Second Light");
-                node.msgArea("3");
                 isApproached = false;
             } else if(message.equals("0") && isEntered) {
                 Log.d("SEND", "OFF Main Light");
-                node.msgArea("0");
                 isEntered = false;
             }
         }

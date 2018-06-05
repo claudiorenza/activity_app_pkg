@@ -44,6 +44,9 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
     private Button buttonEntry;
     private Button buttonApproach;
 
+    private Boolean isEntered;
+    private Boolean isApproached;
+
     private Map<String, Double> beaconsCompare = new HashMap<String, Double>();
 
     @Override
@@ -200,6 +203,30 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
         Log.i("SIZE", String.valueOf(beaconsCompare.size()));
 
         if (beaconsCompare.size() > 1) {
+            if(!isEntered && !isApproached) {//se la luce principale non è accesa
+                if(beaconsCompare.get("B4:99:4C:70:C3:D1") < 2.0) { //se mi trovo a meno di 2 metri di distanza
+                    Log.i("MESSAGE", "1 - Accendo la luce Principale");
+                    new SendToDataLayerThread("/message_path","1", googleClient).start();
+                    isEntered = true;   //segnalo che sono entrato nella stanza
+                }
+            } else  {   //se la luce principale è accesa
+                if(beaconsCompare.get("B4:99:4C:70:C3:C2") < 1.0 && !isApproached) {
+                    Log.i("MESSAGE", "2 - Spengo la luce Principale e accendo la luce Scrivania");
+                    new SendToDataLayerThread("/message_path", "2", googleClient).start();
+                    isApproached = true; //segnalo che mi sono avvicinato
+                } else if(beaconsCompare.get("B4:99:4C:70:C3:C2") > 1.0 && isApproached) {
+                    Log.i("MESSAGE", "3 - Accendo la luce Principale e spengo la luce Scrivania");
+                    new SendToDataLayerThread("/message_path", "3", googleClient).start();
+                    isApproached = false; //segnalo che mi sono avvicinato
+                } else if(beaconsCompare.get("B4:99:4C:70:C3:D1") > 2.0 && beaconsCompare.get("B4:99:4C:70:C3:C2") > 4.0 && !isApproached)  {
+                    Log.i("MESSAGE", "0 - Spengo la luce Principale");
+                    new SendToDataLayerThread("/message_path", "0", googleClient).start();
+                    isEntered = false; //segnalo che mi sono uscito dalla stanza
+                }
+            }
+
+
+            /*
             if(beaconsCompare.get("B4:99:4C:70:C3:D1") < 3.0) {
                 if (beaconsCompare.get("B4:99:4C:70:C3:D1") < beaconsCompare.get("B4:99:4C:70:C3:C2")) {
                     Log.i("MESSAGE", "1");
@@ -215,6 +242,8 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
                 String message = "0";
                 new SendToDataLayerThread("/message_path", message, googleClient).start();
             }
+            */
+
             beaconsCompare.clear();
         }
 

@@ -1,19 +1,67 @@
 [
     {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
         "merged": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/pan_tilt.xml",
         "source": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/res/layout/pan_tilt.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/kloudpix/.android/build-cache/6d3c795c5b2766e2865abe0d5f1d0e066da3265b/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/kloudpix/.android/build-cache/6d3c795c5b2766e2865abe0d5f1d0e066da3265b/output/res/layout/notification_action.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/master_chooser.xml",
         "source": "/home/kloudpix/.android/build-cache/eb3b7f142a9d836d52677c0308bd00784d5b0305/output/res/layout/master_chooser.xml"
     },
     {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/kloudpix/.android/build-cache/6d3c795c5b2766e2865abe0d5f1d0e066da3265b/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
         "merged": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/virtual_joystick.xml",
         "source": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_honeycomb_mr2/0.1.2/res/layout/virtual_joystick.xml"
     },
     {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
         "merged": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/main.xml",
         "source": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/home/kloudpix/.android/build-cache/6d3c795c5b2766e2865abe0d5f1d0e066da3265b/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/home/kloudpix/.android/build-cache/6d3c795c5b2766e2865abe0d5f1d0e066da3265b/output/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/virtual_joystick.xml",
@@ -24,8 +72,16 @@
         "source": "/home/kloudpix/activityApp/src_2018-02-01_wear con beacon/activity_app_pkg/activity_app/build/intermediates/exploded-aar/org.ros.android_core/android_gingerbread_mr1/0.1.2/res/layout/master_chooser.xml"
     },
     {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_template_media.xml"
+    },
+    {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/pan_tilt.xml",
         "source": "/home/kloudpix/.android/build-cache/6d1e301fc0898d29dc82f4ae130b655f83e8c656/output/res/layout/pan_tilt.xml"
+    },
+    {
+        "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/home/kloudpix/.android/build-cache/4f76377d3e28f5d86ee8225c28e1d9ee41a7db4c/output/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/layout/main.xml",
