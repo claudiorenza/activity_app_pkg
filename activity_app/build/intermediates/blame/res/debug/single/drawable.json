@@ -1,15 +1,15 @@
 [
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -21,35 +21,35 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
@@ -57,15 +57,15 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",

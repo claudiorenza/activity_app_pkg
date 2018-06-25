@@ -18,16 +18,28 @@
         app:boxedEdges="all">
 
         <Button
-            android:id="@+id/buttonEntry"
+            android:id="@+id/buttonMain"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entry" />
+            android:text="MAIN" />
 
         <Button
-            android:id="@+id/buttonApproach"
+            android:id="@+id/buttonDesk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Approach" />
+            android:text="DESK" />
+
+        <TextView
+            android:id="@+id/textViewOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
     </LinearLayout>
 </android.support.wear.widget.BoxInsetLayout>
 

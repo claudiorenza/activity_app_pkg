@@ -11,6 +11,7 @@ import android.support.wearable.activity.WearableActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -41,11 +42,17 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
 
     protected static final String TAG = "MonitoringActivity_wear";
     private BeaconManager beaconManager;
-    private Button buttonEntry;
-    private Button buttonApproach;
+    private Button buttonMain;
+    private Button buttonDesk;
+    //private Button buttonTv;
 
-    private Boolean isEntered;
-    private Boolean isApproached;
+    private Boolean isEnteredRoom = false;
+    private Boolean isApproachedDesk = false;
+    private Boolean isApproachedCouch = false;
+
+    private TextView tvOne;
+    private TextView tvTwo;
+
 
     private Map<String, Double> beaconsCompare = new HashMap<String, Double>();
 
@@ -54,31 +61,45 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        tvOne = (TextView)findViewById(R.id.textViewOne);
+        tvTwo = (TextView)findViewById(R.id.textViewTwo);
+
         googleClient = new GoogleApiClient.Builder(this)
                 .addApi(Wearable.API)
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
                 .build();
-        buttonEntry = findViewById(R.id.buttonEntry);
-        buttonEntry.setOnClickListener(new View.OnClickListener() {
+        buttonMain = findViewById(R.id.buttonMain);
+        buttonMain.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Log.d("BUTTON", "Entry");
+                Log.d("BUTTON", "Main");
                 String message = "1";
                 //Requires a new thread to avoid blocking the UI
                 new SendToDataLayerThread("/message_path", message, googleClient).start();
             }
         });
 
-        buttonApproach = findViewById(R.id.buttonApproach);
-        buttonApproach.setOnClickListener(new View.OnClickListener() {
+        buttonDesk = findViewById(R.id.buttonDesk);
+        buttonDesk.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Log.d("BUTTON", "Approach");
+                Log.d("BUTTON", "Desk");
                 String message = "2";
                 //Requires a new thread to avoid blocking the UI
                 new SendToDataLayerThread("/message_path", message, googleClient).start();
             }
         });
 
+        /*
+        buttonTv = findViewById(R.id.buttonTv);
+        buttonTv.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Log.d("BUTTON", "Tv");
+                String message = "3";
+                //Requires a new thread to avoid blocking the UI
+                new SendToDataLayerThread("/message_path", message, googleClient).start();
+            }
+        });
+*/
         // Here, thisActivity is the current activity
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_COARSE_LOCATION)
@@ -150,7 +171,7 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
             @Override
             public void didRangeBeaconsInRegion(Collection<Beacon> beacons, Region region) {
                 if (beacons.size() > 0) {
-                    Log.i(TAG, "The first beacon I see is about " + beacons.iterator().next().getDistance() + " meters away.");
+                    //Log.i(TAG, "The first beacon I see is about " + beacons.iterator().next().getDistance() + " meters away.");
                     recognitionArea(beacons.iterator().next());
                 }
             }
@@ -200,28 +221,60 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
         Log.i(TAG,  "ADDRESS: " + beacon.getBluetoothAddress() + " - Distance: " + beacon.getDistance());
 
         beaconsCompare.put(beacon.getBluetoothAddress() , beacon.getDistance());
-        Log.i("SIZE", String.valueOf(beaconsCompare.size()));
-
+        if (beaconsCompare.size() == 2) {
+            Log.i("SIZE", String.valueOf(beaconsCompare.size()));
+        }
         if (beaconsCompare.size() > 1) {
-            if(!isEntered && !isApproached) {//se la luce principale non è accesa
+            tvOne.setText("D1: " + beaconsCompare.get("B4:99:4C:70:C3:D1"));
+            tvTwo.setText("C2: " + beaconsCompare.get("B4:99:4C:70:C3:C2"));
+            if(!isEnteredRoom && !isApproachedDesk && !isApproachedCouch) {//se la luce principale non è accesa
                 if(beaconsCompare.get("B4:99:4C:70:C3:D1") < 2.0) { //se mi trovo a meno di 2 metri di distanza
                     Log.i("MESSAGE", "1 - Accendo la luce Principale");
                     new SendToDataLayerThread("/message_path","1", googleClient).start();
-                    isEntered = true;   //segnalo che sono entrato nella stanza
+                    isEnteredRoom = true;   //segnalo che sono entrato nella stanza
+                    buttonMain.setBackgroundColor(Color.YELLOW);
                 }
             } else  {   //se la luce principale è accesa
-                if(beaconsCompare.get("B4:99:4C:70:C3:C2") < 1.0 && !isApproached) {
+                if(beaconsCompare.get("B4:99:4C:70:C3:C2") < 1.0 && !isApproachedDesk) {    //avvicinamento alla scrivania
                     Log.i("MESSAGE", "2 - Spengo la luce Principale e accendo la luce Scrivania");
                     new SendToDataLayerThread("/message_path", "2", googleClient).start();
-                    isApproached = true; //segnalo che mi sono avvicinato
-                } else if(beaconsCompare.get("B4:99:4C:70:C3:C2") > 1.0 && isApproached) {
-                    Log.i("MESSAGE", "3 - Accendo la luce Principale e spengo la luce Scrivania");
+                    isApproachedDesk = true; //segnalo che mi sono avvicinato
+                    isApproachedCouch = false; //segnalo che mi sono uscito dalla stanza
+                    buttonMain.setBackgroundColor(Color.GRAY);
+                    buttonDesk.setBackgroundColor(Color.YELLOW);
+                    //buttonTv.setBackgroundColor(Color.GRAY);
+                } else if(beaconsCompare.get("B4:99:4C:70:C3:C2") > 1.0 && isApproachedDesk) {
+                    Log.i("MESSAGE", "4 desk - Accendo la luce Principale e spengo la luce Scrivania");
+                    new SendToDataLayerThread("/message_path", "4", googleClient).start();
+                    isApproachedDesk = false; //segnalo che mi sono avvicinato
+                    isApproachedCouch = false; //segnalo che mi sono uscito dalla stanza
+                    buttonMain.setBackgroundColor(Color.YELLOW);
+                    buttonDesk.setBackgroundColor(Color.GRAY);
+                    //buttonTv.setBackgroundColor(Color.GRAY);
+                } else if(beaconsCompare.get("B4:99:4C:70:C3:D1") > 1.5 && beaconsCompare.get("B4:99:4C:70:C3:D1") < 2.5 &&
+                        beaconsCompare.get("B4:99:4C:70:C3:C2") > 2.5 && beaconsCompare.get("B4:99:4C:70:C3:C2") < 3.5 && !isApproachedCouch) {
+                    Log.i("MESSAGE", "3 - Accendo la TV");
                     new SendToDataLayerThread("/message_path", "3", googleClient).start();
-                    isApproached = false; //segnalo che mi sono avvicinato
-                } else if(beaconsCompare.get("B4:99:4C:70:C3:D1") > 2.0 && beaconsCompare.get("B4:99:4C:70:C3:C2") > 4.0 && !isApproached)  {
+                    isApproachedDesk = false; //segnalo che mi sono allontanato dalla scrivania
+                    isApproachedCouch = true;   //e che mi sono avvicinato al divano
+                    buttonMain.setBackgroundColor(Color.RED);
+                    buttonDesk.setBackgroundColor(Color.RED);
+                    //buttonTv.setBackgroundColor(Color.YELLOW);
+                } else if((beaconsCompare.get("B4:99:4C:70:C3:D1") < 1.5 || beaconsCompare.get("B4:99:4C:70:C3:D1") > 2.5 ||
+                        beaconsCompare.get("B4:99:4C:70:C3:C2") < 2.5 || beaconsCompare.get("B4:99:4C:70:C3:C2") > 3.5) && isApproachedCouch) {
+                    Log.i("MESSAGE", "4 couch - Spengo la TV e accendo la luce Principale");
+                    new SendToDataLayerThread("/message_path", "4", googleClient).start();
+                    isApproachedDesk = false; //segnalo che mi sono allontanato dalla scrivania
+                    isApproachedCouch = false;   //e che mi sono avvicinato al divano
+                    buttonMain.setBackgroundColor(Color.YELLOW);
+                    buttonDesk.setBackgroundColor(Color.GRAY);
+                    //buttonTv.setBackgroundColor(Color.GRAY);
+                } else if(beaconsCompare.get("B4:99:4C:70:C3:D1") > 3.0 && beaconsCompare.get("B4:99:4C:70:C3:C2") > 4.0
+                        && !isApproachedDesk && !isApproachedCouch)  {
                     Log.i("MESSAGE", "0 - Spengo la luce Principale");
                     new SendToDataLayerThread("/message_path", "0", googleClient).start();
-                    isEntered = false; //segnalo che mi sono uscito dalla stanza
+                    isEnteredRoom = false; //segnalo che mi sono uscito dalla stanza
+                    buttonMain.setBackgroundColor(Color.GRAY);
                 }
             }
 

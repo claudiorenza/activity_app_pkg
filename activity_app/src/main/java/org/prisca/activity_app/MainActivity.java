@@ -25,8 +25,9 @@ import org.ros.node.NodeMainExecutor;
 public class MainActivity extends RosActivity /*implements BeaconConsumer */{
 
     private NodeMessage node;
-    private boolean isEntered = false;
-    private boolean isApproached = false;
+    private boolean isEnteredRoom = false;
+    private boolean isApproachedDesk = false;
+    private boolean isApproachedTv = false;
 
     protected static final String TAG = "MonitoringActivity";
     //private BeaconManager beaconManager;
@@ -55,13 +56,13 @@ public class MainActivity extends RosActivity /*implements BeaconConsumer */{
         final Button buttonEntry = (Button) findViewById(R.id.buttonEntry);
         buttonEntry.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-            if (!isEntered) {
+            if (!isEnteredRoom) {
                 node.msgArea("1");
-                isEntered = true;
+                isEnteredRoom = true;
             }
             else {
                 node.msgArea("0");
-                isEntered = false;
+                isEnteredRoom = false;
             }
             }
         });
@@ -69,13 +70,13 @@ public class MainActivity extends RosActivity /*implements BeaconConsumer */{
         final Button buttonApproach = (Button) findViewById(R.id.buttonApproach);
         buttonApproach.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if (!isApproached) {
+                if (!isApproachedDesk) {
                     node.msgArea("2");
-                    isApproached = true;
+                    isApproachedDesk = true;
                 }
                 else {
-                    node.msgArea("3");
-                    isApproached = false;
+                    node.msgArea("4");
+                    isApproachedDesk = false;
                 }
             }
         });
@@ -89,18 +90,22 @@ public class MainActivity extends RosActivity /*implements BeaconConsumer */{
             Log.d("Recevied Command", message);
             node.msgArea(message);
 
-            if(message.equals("1") && !isEntered)   {
+            if(message.equals("1") && !isEnteredRoom)   {
                 Log.d("SEND", "ON Main Light");
-                isEntered = true;
-            } else if(message.equals("2") && isEntered && !isApproached) {
+                isEnteredRoom = true;
+            } else if(message.equals("2") && isEnteredRoom && !isApproachedDesk) {
                 Log.d("SEND", "Approach Second Light");
-                isApproached = true;
-            } else if(message.equals("1") && isEntered && isApproached)  {
-                Log.d("SEND", "Retain Second Light");
-                isApproached = false;
-            } else if(message.equals("0") && isEntered) {
+                isApproachedDesk = true;
+            } else if(message.equals("3") && isEnteredRoom && !isApproachedTv) {
+                Log.d("SEND", "Approach TV");
+                isApproachedTv = true;
+            } else if(message.equals("4") && isEnteredRoom && isApproachedDesk)  {
+                Log.d("SEND", "Retain Second Light and TV");
+                isApproachedDesk = false;
+                isApproachedTv = false;
+            } else if(message.equals("0") && isEnteredRoom) {
                 Log.d("SEND", "OFF Main Light");
-                isEntered = false;
+                isEnteredRoom = false;
             }
         }
     }

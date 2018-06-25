@@ -5,19 +5,19 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_full_open_on_phone.png",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
@@ -29,7 +29,7 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/googleg_disabled_color_18.png",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_normal.9.png",
@@ -37,7 +37,7 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
@@ -45,6 +45,6 @@
     },
     {
         "merged": "/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/res/merged/debug/drawable-hdpi-v4/googleg_standard_color_18.png",
-        "source": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     }
 ]

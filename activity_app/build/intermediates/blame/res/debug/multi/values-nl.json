@@ -11,13 +11,13 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
-                        "startOffset": 245,
+                        "startOffset": 283,
                         "endColumn": 107,
-                        "endOffset": 352
+                        "endOffset": 390
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 399
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
-                        "startOffset": 353,
+                        "startOffset": 391,
                         "endColumn": 186,
-                        "endOffset": 539
+                        "endOffset": 577
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 531
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
-                        "startOffset": 540,
+                        "startOffset": 578,
                         "endColumn": 127,
-                        "endOffset": 667
+                        "endOffset": 705
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 644
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
-                        "startOffset": 668,
+                        "startOffset": 706,
                         "endColumn": 108,
-                        "endOffset": 776
+                        "endOffset": 814
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 870
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
-                        "startOffset": 777,
+                        "startOffset": 815,
                         "endColumn": 225,
-                        "endOffset": 1002
+                        "endOffset": 1040
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 999
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
-                        "startOffset": 1003,
+                        "startOffset": 1041,
                         "endColumn": 124,
-                        "endOffset": 1127
+                        "endOffset": 1165
                     }
                 }
             },
@@ -121,17 +121,17 @@
                     "startLine": 8,
                     "startColumn": 4,
                     "startOffset": 1004,
-                    "endColumn": 152,
-                    "endOffset": 1152
+                    "endColumn": 134,
+                    "endOffset": 1134
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
-                        "startOffset": 1128,
-                        "endColumn": 148,
-                        "endOffset": 1276
+                        "startOffset": 1166,
+                        "endColumn": 130,
+                        "endOffset": 1296
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 1157,
-                    "endColumn": 134,
-                    "endOffset": 1287
+                    "startOffset": 1139,
+                    "endColumn": 201,
+                    "endOffset": 1336
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/11b2e343527b023ca39afd25e65c533eca3c2dfc/output/res/values-nl/values.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 4,
                         "startColumn": 0,
-                        "startOffset": 1277,
-                        "endColumn": 130,
-                        "endOffset": 1407
+                        "startOffset": 285,
+                        "endColumn": 201,
+                        "endOffset": 486
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 1292,
-                    "endColumn": 201,
-                    "endOffset": 1489
+                    "startOffset": 1341,
+                    "endColumn": 236,
+                    "endOffset": 1573
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4efc7ebd7e855b4b779093b24484e366e9743069/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 11,
                         "startColumn": 0,
-                        "startOffset": 247,
-                        "endColumn": 201,
-                        "endOffset": 448
+                        "startOffset": 1297,
+                        "endColumn": 236,
+                        "endOffset": 1533
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1494,
-                    "endColumn": 236,
-                    "endOffset": 1726
+                    "startOffset": 1578,
+                    "endColumn": 107,
+                    "endOffset": 1681
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
-                        "startOffset": 1408,
-                        "endColumn": 236,
-                        "endOffset": 1644
+                        "startOffset": 1534,
+                        "endColumn": 103,
+                        "endOffset": 1637
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1731,
-                    "endColumn": 107,
-                    "endOffset": 1834
+                    "startOffset": 1686,
+                    "endColumn": 199,
+                    "endOffset": 1881
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
-                        "startOffset": 1645,
-                        "endColumn": 103,
-                        "endOffset": 1748
+                        "startOffset": 1638,
+                        "endColumn": 199,
+                        "endOffset": 1837
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1839,
-                    "endColumn": 199,
-                    "endOffset": 2034
+                    "startOffset": 1886,
+                    "endColumn": 127,
+                    "endOffset": 2009
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
-                        "startOffset": 1749,
-                        "endColumn": 199,
-                        "endOffset": 1948
+                        "startOffset": 1838,
+                        "endColumn": 123,
+                        "endOffset": 1961
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 2039,
-                    "endColumn": 127,
-                    "endOffset": 2162
+                    "startOffset": 2014,
+                    "endColumn": 221,
+                    "endOffset": 2231
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
-                        "startOffset": 1949,
-                        "endColumn": 123,
-                        "endOffset": 2072
+                        "startOffset": 1962,
+                        "endColumn": 221,
+                        "endOffset": 2183
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 2167,
-                    "endColumn": 221,
-                    "endOffset": 2384
+                    "startOffset": 2236,
+                    "endColumn": 211,
+                    "endOffset": 2443
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
-                        "startOffset": 2073,
-                        "endColumn": 221,
-                        "endOffset": 2294
+                        "startOffset": 2184,
+                        "endColumn": 207,
+                        "endOffset": 2391
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 2389,
-                    "endColumn": 211,
-                    "endOffset": 2596
+                    "startOffset": 2448,
+                    "endColumn": 97,
+                    "endOffset": 2541
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
-                        "startOffset": 2295,
-                        "endColumn": 207,
-                        "endOffset": 2502
+                        "startOffset": 2392,
+                        "endColumn": 93,
+                        "endOffset": 2485
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 2601,
-                    "endColumn": 97,
-                    "endOffset": 2694
+                    "startOffset": 2546,
+                    "endColumn": 92,
+                    "endOffset": 2634
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
-                        "startOffset": 2503,
-                        "endColumn": 93,
-                        "endOffset": 2596
+                        "startOffset": 2486,
+                        "endColumn": 88,
+                        "endOffset": 2574
                     }
                 }
             },
@@ -310,56 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 2699,
-                    "endColumn": 92,
-                    "endOffset": 2787
+                    "startOffset": 2639,
+                    "endColumn": 107,
+                    "endOffset": 2742
                 },
                 "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
+                    "file": "/home/kloudpix/.android/build-cache/0fafd20a874da4b03e7f252e663024e50d46bdeb/output/res/values-nl/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
-                        "startOffset": 2597,
-                        "endColumn": 88,
-                        "endOffset": 2685
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 2792,
-                    "endColumn": 107,
-                    "endOffset": 2895
-                },
-                "from": {
-                    "file": "/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/res/values-nl/values.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 0,
-                        "startOffset": 2686,
+                        "startOffset": 2575,
                         "endColumn": 103,
-                        "endOffset": 2789
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 2900,
-                    "endColumn": 100,
-                    "endOffset": 2996
-                },
-                "from": {
-                    "file": "/home/kloudpix/.android/build-cache/6d3c795c5b2766e2865abe0d5f1d0e066da3265b/output/res/values-nl/values-nl.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 100,
-                        "endOffset": 151
+                        "endOffset": 2678
                     }
                 }
             }

@@ -66,15 +66,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/kloudpix/.android/build-cache/2987e9c2cbc6388f2f881ab60745921240fbef39/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4d4d98a0428b2e620e6b4a228ef9f7cb2f0debd2">
-        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/classes_1609fc14d92fc2a9367a10eeb676ea35c841e9d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/kloudpix/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/std_msgs/0.5.11/a0191f0506dfecfc471eb199a119691717801c0e/std_msgs-0.5.11.jar"
         jumboMode="false"
         optimize="true"
@@ -162,15 +153,6 @@
         revision="25.0.2"
         sha1="9537507004086900e2c6a6eebbf971727dffccb2">
         <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/rosjava_geometry-0.1.6_11b7672b327d31f531ee5bf121178d1f92df4739.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/kloudpix/.android/build-cache/4efc7ebd7e855b4b779093b24484e366e9743069/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d8fe6d91310b54734f454dd490c3c869f6290576">
-        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/classes_97e369451bbdb7f439e1cfc7031187982ff28fdc.jar" />
     </item>
     <item
         is-multidex="false"
@@ -351,24 +333,6 @@
         revision="25.0.2"
         sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
         <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/dnsjava-2.1.1_54f8b13cd481aab31bd1a6ed13ef2423c1900d37.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/kloudpix/.android/build-cache/fa65c7c2ce55ece571d8e71119c4e9c6caf2f62a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="99669e5a7fb7a5219576870ac6d2eb154edfbc7f">
-        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/classes_d96fab2122e57c9e89d9ae77216ec57c67b8d628.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/kloudpix/.android/build-cache/4681c3d935621650cd0f79312d2129eef2aa4dae/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8d813c05361147f6f515f749df19223cd6256314">
-        <dex dex="/home/kloudpix/activityApp/src/activity_app_pkg/activity_app/build/intermediates/pre-dexed/debug/classes_df728b7101e7a3a380db831b09331ba043b82cef.jar" />
     </item>
     <item
         is-multidex="false"
