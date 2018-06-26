@@ -235,7 +235,7 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
                     buttonMain.setBackgroundColor(Color.YELLOW);
                 }
             } else  {   //se la luce principale è accesa
-                if(beaconsCompare.get("B4:99:4C:70:C3:C2") < 1.0 && !isApproachedDesk) {    //avvicinamento alla scrivania
+                if(beaconsCompare.get("B4:99:4C:70:C3:C2") < 1.5 && !isApproachedDesk) {    //avvicinamento alla scrivania
                     Log.i("MESSAGE", "2 - Spengo la luce Principale e accendo la luce Scrivania");
                     new SendToDataLayerThread("/message_path", "2", googleClient).start();
                     isApproachedDesk = true; //segnalo che mi sono avvicinato
@@ -243,7 +243,7 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
                     buttonMain.setBackgroundColor(Color.GRAY);
                     buttonDesk.setBackgroundColor(Color.YELLOW);
                     //buttonTv.setBackgroundColor(Color.GRAY);
-                } else if(beaconsCompare.get("B4:99:4C:70:C3:C2") > 1.0 && isApproachedDesk) {
+                } else if(beaconsCompare.get("B4:99:4C:70:C3:C2") > 1.5 && isApproachedDesk) {
                     Log.i("MESSAGE", "4 desk - Accendo la luce Principale e spengo la luce Scrivania");
                     new SendToDataLayerThread("/message_path", "4", googleClient).start();
                     isApproachedDesk = false; //segnalo che mi sono avvicinato
@@ -251,8 +251,8 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
                     buttonMain.setBackgroundColor(Color.YELLOW);
                     buttonDesk.setBackgroundColor(Color.GRAY);
                     //buttonTv.setBackgroundColor(Color.GRAY);
-                } else if(beaconsCompare.get("B4:99:4C:70:C3:D1") > 1.5 && beaconsCompare.get("B4:99:4C:70:C3:D1") < 2.5 &&
-                        beaconsCompare.get("B4:99:4C:70:C3:C2") > 2.5 && beaconsCompare.get("B4:99:4C:70:C3:C2") < 3.5 && !isApproachedCouch) {
+                } else if(beaconsCompare.get("B4:99:4C:70:C3:D1") > 2.0 && beaconsCompare.get("B4:99:4C:70:C3:D1") < 3.0 &&
+                        beaconsCompare.get("B4:99:4C:70:C3:C2") > 4.5 && beaconsCompare.get("B4:99:4C:70:C3:C2") < 5.5 && !isApproachedCouch) {
                     Log.i("MESSAGE", "3 - Accendo la TV");
                     new SendToDataLayerThread("/message_path", "3", googleClient).start();
                     isApproachedDesk = false; //segnalo che mi sono allontanato dalla scrivania
@@ -260,8 +260,8 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
                     buttonMain.setBackgroundColor(Color.RED);
                     buttonDesk.setBackgroundColor(Color.RED);
                     //buttonTv.setBackgroundColor(Color.YELLOW);
-                } else if((beaconsCompare.get("B4:99:4C:70:C3:D1") < 1.5 || beaconsCompare.get("B4:99:4C:70:C3:D1") > 2.5 ||
-                        beaconsCompare.get("B4:99:4C:70:C3:C2") < 2.5 || beaconsCompare.get("B4:99:4C:70:C3:C2") > 3.5) && isApproachedCouch) {
+                } else if((beaconsCompare.get("B4:99:4C:70:C3:D1") < 2.0 || beaconsCompare.get("B4:99:4C:70:C3:D1") > 3.0 ||
+                        beaconsCompare.get("B4:99:4C:70:C3:C2") < 4.5 || beaconsCompare.get("B4:99:4C:70:C3:C2") > 5.5) && isApproachedCouch) {
                     Log.i("MESSAGE", "4 couch - Spengo la TV e accendo la luce Principale");
                     new SendToDataLayerThread("/message_path", "4", googleClient).start();
                     isApproachedDesk = false; //segnalo che mi sono allontanato dalla scrivania
@@ -269,7 +269,7 @@ public class MainActivity extends WearableActivity implements BeaconConsumer, Go
                     buttonMain.setBackgroundColor(Color.YELLOW);
                     buttonDesk.setBackgroundColor(Color.GRAY);
                     //buttonTv.setBackgroundColor(Color.GRAY);
-                } else if(beaconsCompare.get("B4:99:4C:70:C3:D1") > 3.0 && beaconsCompare.get("B4:99:4C:70:C3:C2") > 4.0
+                } else if(beaconsCompare.get("B4:99:4C:70:C3:D1") > 4.0 && beaconsCompare.get("B4:99:4C:70:C3:C2") > 6.0
                         && !isApproachedDesk && !isApproachedCouch)  {
                     Log.i("MESSAGE", "0 - Spengo la luce Principale");
                     new SendToDataLayerThread("/message_path", "0", googleClient).start();
